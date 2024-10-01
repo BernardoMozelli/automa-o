@@ -1,0 +1,24 @@
+#Módulos utilizados.
+
+pip install selenium
+pip install ChromeDriverManager
+pip install webdriver-manager
+pip install pywin32
+
+Obs: executar comandos no cmd
+
+#-------------------------------------------
+
+#Instalar o seviço e inicia-lo. Executar no cmd
+python service_painelPediatria.py install
+python service_painelAdulto.py start
+
+#Para remover o serviço caso necessário
+python service_painelPediatria.py remove
+python service_painelAdulto.py remove
+
+
+
+
+
+
